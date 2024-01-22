@@ -35,9 +35,6 @@ python predict.py --image_path path/to/your/image.jpg
 
 pip install -r requirements.txt
 
-## License
-
-This project is licensed under the MIT License.
 
 
 
