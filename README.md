@@ -9,10 +9,6 @@ This repository contains a deep learning model for artist classification. The mo
 - [Model Architecture](#model-architecture)
 - [Usage](#usage)
 - [Requirements](#requirements)
-- [Training the Model](#training-the-model)
-- [Evaluation](#evaluation)
-- [Results](#results)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
@@ -30,6 +26,15 @@ The deep learning model is implemented using [TensorFlow](https://www.tensorflow
 ## Usage
 
 To use the pre-trained model for artist classification, you can use the `predict.py` script. Simply provide the path to the image you want to classify as a command-line argument:
+
+##Requirements
+
+pip install -r requirements.txt
+
+##License
+
+This project is licensed under the MIT License.
+
 
 ```bash
 python predict.py --image_path path/to/your/image.jpg
