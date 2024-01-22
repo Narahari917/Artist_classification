@@ -27,6 +27,10 @@ The deep learning model is implemented using [TensorFlow](https://www.tensorflow
 
 To use the pre-trained model for artist classification, you can use the `predict.py` script. Simply provide the path to the image you want to classify as a command-line argument.
 
+```bash
+python predict.py --image_path path/to/your/image.jpg
+```
+
 ## Requirements
 
 pip install -r requirements.txt
@@ -36,5 +40,4 @@ pip install -r requirements.txt
 This project is licensed under the MIT License.
 
 
-```bash
-python predict.py --image_path path/to/your/image.jpg
+
